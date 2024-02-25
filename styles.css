@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(body.jpg);
+    background-size: contain;
+    width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: rgb(34, 133, 34);
+    position: fixed;
+
+    width: 65%;
+    float: inline-start;    
+    
+    margin: -2vw 0vw 0vw 2vw;
+    padding-top: 1.7vw;
+    padding-left: 2vw;
+    padding-bottom: 2vw;
+    padding-right: 2vw;
+    font-size: 1vw;
+    
+    height: auto;
+    border-radius: 20px;
+    outline:rgb(34, 133, 34);
+    align-items: center;
+
+}
+#name {
+    font-size: 6vh;
+}
+.slogan {
+    font-size: 3vh;
+}
+nav a {
+    border: 2px double black;
+    margin: 0px 4px 0px 4px;
+    line-height: 28px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 2.1vh;
+}
+a:hover{
+    color: gold;
+    border-radius: 2rem;
+    border-color: gold;
+    background-color: rgb(12, 17, 17);
+    padding: 1vw;
+    margin: 1.8vw;
+}
+.main {
+    display: flex;
+}
+.cont {
+    text-align: justify;
+    margin-top: 20vh;
+    margin-left: 4vw;
+    margin-right: 2vw;
+    margin-bottom: auto;
+    padding-top: 50px;
+    padding-left: 5vw;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    background-color: rgba(121, 240, 110, 0.411);
+    width: 60%;
+
+
+}
+.static_infobox {
+    background-color: rgb(34, 133, 34);
+    padding: 0.01px 1vw 4vw 1vw;
+    width: 35%;
+    float: left;
+    min-height: fit-content;
+    text-align: center;
+    position: sticky;
+    margin-right: 2vw;
+}
+div.info-contact table {
+    width: 100%;
+    border-spacing: 10px;
+    
+}
+div.info-contact table tr th {
+    text-align: left;
+}
+div.info-contact table tr th img {
+    width: 3vw;
+    margin-right: 12px;
+}
+div.info-contact table tr td {
+    text-align: end;
+    width: 5rem;
+    font-size: 0.9em;
+    text-decoration: none; 
+}
+div.info-contact table tr td a {
+
+    text-decoration: none; 
+    color: black;
+}
+#info {
+    margin: 15px 2px;
+}
+.myphoto {
+
+    border: 2px;
+    width: 18vw;
+    height: 23vw;
+    background: red;
+    margin-top: 10px;
+    margin-left: 10vw;
+    border: 2px solid rgb(0, 0, 0);
+    background: url(/myphoto.jpg);
+    background-size: 120%;
+    background-position: 30% 40%;
+
+}
+nav h1 {
+    font-size: 2.1rem;
+}
+.slogan {
+    display: inline ;
+    
+}
+.slogan {
+    position: relative;
+    padding-left: 2vw;
+}
+
+
+.bottom {
+    width: 100vw;
+    height: 5rem;
+    background-color: black;
+    color: beige;
+    text-align: end;
+    padding: 1rem 2rem;
+}
+span {
+    background: linear-gradient(to left, red, gold);
+    background-clip: text;
+    color:transparent;
+    font-weight: bolder;
+}
+.cont table {
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    text-decoration: none;
+}
+.cont table tr td {
+    
+    border: 1px solid black;
+    text-align: center;
+    
+}
+.cont table tr td {
+
+    text-align: center;
+    vertical-align: top;
+    
+}
+.cont table tr th a {
+    text-decoration: none;
+    color: #0faddd;
+
+} 
+.cont table tr th a :hover {
+    color: blueviolet;
+    border: 1px solid red;
+}
+.zvanje {
+    color: black;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.god_rasp {
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul li ol li {
+    padding-left: 1vw;
+    margin-left: 2vw;
+}
+.slon {
+    width: 20vw;
+    height: 30vw;
+    background: url(giraffe.jpg);
+    background-size: cover;
+    background-position: center ;
+    margin: 10px 2vw 10px 12vw;
+    border: 7px solid rgba(25, 85, 25, 0.479);
+    
+}
+.slon:hover {
+    width: 20vw;
+    height: 30vw;
+    background: url(elep.webp);
+    background-size: cover;
+    background-position: center ;
+    margin: 10px 2vw 10px 12vw;
+    border: 7px solid rgba(25, 85, 25, 0.479);
+    
+    
+}
